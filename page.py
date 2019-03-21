@@ -1,3 +1,4 @@
+#定义在视图函数中的分页类
 class Pagination(object):
     """自定义分页（Bootstrap版）"""
     def __init__(self, current_page, total_count, base_url, per_page=10, max_show=11):
