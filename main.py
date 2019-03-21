@@ -1,3 +1,4 @@
+#下面是django中视图函数调用自定义插件
 def publisher_list(request):
     # 从URL中取当前访问的页码数
     current_page = int(request.GET.get('page'))
